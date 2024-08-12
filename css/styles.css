@@ -1,4 +1,11 @@
 
+body {
+    width: 1200px; /* Set a fixed width */
+    margin: 0 auto; /* Center the content on larger screens */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
 header {
     display: flex;               /* Enables flexbox layout */
     justify-content: flex-end; /* Optional: Distributes space between logo and nav */
